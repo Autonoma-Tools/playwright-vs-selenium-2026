@@ -1,0 +1,17 @@
+{
+  "name": "playwright-vs-selenium-2026",
+  "version": "0.1.0",
+  "description": "Companion code for the Autonoma blog post on Playwright vs Selenium in 2026",
+  "license": "MIT",
+  "scripts": {
+    "tax": "node tools/maintenance-tax.js",
+    "test:selenium": "npx mocha selenium/login-flow.spec.js --timeout 30000",
+    "test:playwright": "npx playwright test playwright/login-flow.spec.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.27.0",
+    "@playwright/test": "^1.49.0",
+    "mocha": "^10.8.0",
+    "chai": "^4.5.0"
+  }
+}
