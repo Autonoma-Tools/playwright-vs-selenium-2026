@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "slug": "playwright-vs-selenium-2026",
+  "step": "created",
+  "completed_specs": [],
+  "pending_specs": ["tax-calculator", "selenium-baseline", "playwright-equivalent"],
+  "created_at": "2026-04-13T00:00:00Z",
+  "updated_at": "2026-04-13T00:00:00Z"
+}
